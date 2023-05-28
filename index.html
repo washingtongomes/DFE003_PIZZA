@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <script src="./main.js"></script>
+  <script src="./main.js" defer></script>
 
   <title> Pizzaria </title>
   <body>
@@ -20,35 +20,38 @@
     <img src="imgPizza.png" alt="imagem pizza"><br>
   </div> 
 
-<section class="campos">
-  
+<section>
+  <form class="campos" id="form">
   <div class="campo"> 
   <label for="valorConta" class = "label" >Valor total da Conta: </label>
-  <input type="text" id="valorConta" class="inputText" placeholder="Digite o valor da conta..."> 
+  <input type="text" id="valorConta" class="inputText" placeholder="Digite o valor da conta... " required> 
   </div>
   <br>
   
   <div class="campo">
   <label for="taxaServico" class = "label">Valor taxa de Serviço: </label>
-  <input type="text" id="taxaServico" class="inputText" placeholder="Digite a taxa de serviço..."> 
+  <input type="text" id="taxaServico" class="inputText" placeholder="Digite a taxa de serviço..." required> 
   </div>
   <br>
   
   <div class="campo">
   <label for="qtdeClientes" class = "label" >Quantidade de pagantes: </label>
-  <input type="number" id="qtdeClientes" class="inputText" placeholder="Digite Quantidade de pagantes..."> 
+  <input type="number" id="qtdeClientes" class="inputText" placeholder="Digite Quantidade de pagantes..." required> 
   </div>
   <br>
 
   <div class="campo">
-  <button onclick="CalcularValorPorCliente()"> Calcular</button>
+  <button onclick="EventForm()"> Calcular</button>
   </div>
+</form>
 </section>
-
 <br>
+ 
+<section>
     <ul class="card-list">
       <li class="card" id="content"></li>
     </ul>
+</section>
 
   </body>
 </div>
