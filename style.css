@@ -1,0 +1,129 @@
+
+body{
+    background-color: #333;
+}
+div{
+    display:contents;
+    justify-content: center;
+}
+
+h2, h3{
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+}
+p{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.imagemPizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+   
+}
+.imagemPizza img{
+    max-width: 100%;
+    height: auto;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid  violet;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3rem;
+    opacity: 0.6;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+
+}
+.inputText{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green ;
+    background-color: bisque;
+    border-radius: 15px;
+    color: green;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+#title{
+    color: #fff;
+    text-align: center;
+}
+.subtitulo-h3{
+    color: yellowgreen;
+}
+#span{
+    color: orangered;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    color: #fff;
+    
+}
+
+.card{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0 , 0,  0, 0.3);
+    margin: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    display: inline-block; 
+    vertical-align: top; 
+    text-align: center;
+   
+
+}
+#content{
+    color: yellowgreen;
+    font-size: 1rem;
+}
+

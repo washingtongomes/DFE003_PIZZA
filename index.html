@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <script src="./main.js"></script>
+
+  <title> Pizzaria </title>
+  <body>
+    <div>
+    <h1 id="title"> Campinho Digital </h1>
+    <h3> Aluno: <span> Washington </span> </h3>
+
+    <h2> Desafio... <span id="span"> Pizzaria </span></h2>
+    <hr><br>
+  <div class="imagemPizza">
+    <img src="imgPizza.png" alt="imagem pizza"><br>
+  </div> 
+
+<section class="campos">
+  
+  <div class="campo"> 
+  <label for="valorConta" class = "label" >Valor total da Conta: </label>
+  <input type="text" id="valorConta" class="inputText" placeholder="Digite o valor da conta..."> 
+  </div>
+  <br>
+  
+  <div class="campo">
+  <label for="taxaServico" class = "label">Valor taxa de Serviço: </label>
+  <input type="text" id="taxaServico" class="inputText" placeholder="Digite a taxa de serviço..."> 
+  </div>
+  <br>
+  
+  <div class="campo">
+  <label for="qtdeClientes" class = "label" >Quantidade de pagantes: </label>
+  <input type="number" id="qtdeClientes" class="inputText" placeholder="Digite Quantidade de pagantes..."> 
+  </div>
+  <br>
+
+  <div class="campo">
+  <button onclick="CalcularValorPorCliente()"> Calcular</button>
+  </div>
+</section>
+
+<br>
+    <ul class="card-list">
+      <li class="card" id="content"></li>
+    </ul>
+
+  </body>
+</div>
+            </html>
